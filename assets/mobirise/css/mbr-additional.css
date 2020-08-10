@@ -605,7 +605,7 @@ p a[class*="text-"]:not(.nav-link):not([role]) {
 a,
 a:hover {
   color: #ffffff;
-  text-decoration: underline;
+   text-decoration: underline;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
