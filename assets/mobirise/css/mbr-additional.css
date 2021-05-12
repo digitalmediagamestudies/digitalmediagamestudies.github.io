@@ -1,11 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P:400&display=swap);
-@import url(https://fonts.googleapis.com/css?family=VT323:400&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Play:400,700&display=swap);
-
-
-
-
-
 body {
   font-family: Jost;
 }
@@ -526,7 +518,7 @@ a.text-black:focus,
 a.text-black.active {
   color: #000000 !important;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
   transition: 0.2s;
   position: relative;
   background-image: linear-gradient(currentColor 50%, currentColor 50%);
@@ -562,8 +554,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
 }
 a,
 a:hover {
-  color: #ffffff;
-  text-decoration: underline;
+  color: #777d74;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
